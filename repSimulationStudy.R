@@ -7,7 +7,7 @@ source("functions_initializations.R")
 ### SimStudy ############################################################################
 #########################################################################################
 
-simstudy_dat <- readRDS("repStudy_data.rds")
+simstudy_dat <- readRDS(url("https://staffcloud.hochschule-stralsund.de/index.php/s/Y8fzJfw3fSyc9ds/download/repStudy_data.rds"))
 simstudy_trial_design <- readRDS("repStudy_trial_design.rds")
 
 
